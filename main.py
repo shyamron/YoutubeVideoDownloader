@@ -70,7 +70,7 @@ def mainf():
         e=tk.Label(root,text="\n",bg="#B6A19E")
         e.pack()
     except:
-        messagebox.showerror("Error","INVALID INPUT\nPlease enter proper url.")
+        messagebox.showerror("Error","INVALID INPUT\nPlease enter proper url\n(This video is not available for downloading).")
 fontstyle=tkFont.Font(size=30,family="Arial Black")
 t=tk.Label(root,text="YoutubeVideoDownloader",font=fontstyle,bg="#B6A19E")
 t.pack(pady=20)
